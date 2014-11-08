@@ -4,12 +4,15 @@ use WWW::Mechanize;
 use WWW::Mechanize::Firefox;
 use List::MoreUtils qw(uniq);
 =head1 NAME
+
 B<Statify> - FaceBook profile analysis without FaceBook's API
 
 =head1 SYNOPSIS
+
 	C<< my $statify= new FB::Statify('username@domain.com',"password",0); >>
 
 =head1 DESCRIPTION
+
 This module attempts to give the ability to conduct profile analysis over a targeted graph of friends, and , if combined with statistical and psychological tools, can possibly yield great and unexpected results.
 It was made in order bypass the use of FaceBook's Graph API, since it requires user interaction and user permission. 
 
