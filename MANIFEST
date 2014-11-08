@@ -1,0 +1,5 @@
+Makefile.pl
+lib/FB/Statify.pm
+t/test.t
+MANIFEST
+Changes
